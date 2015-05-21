@@ -1,36 +1,24 @@
 <?php namespace Anomaly\UrlLinkTypeExtension;
 
-use Anomaly\NavigationModule\LinkType\LinkTypeExtension;
+use Anomaly\NavigationModule\Link\LinkType;
 
 /**
  * Class UrlLinkTypeExtension
- * @package Anomaly\UrlLinkTypeExtension
+ *
+ * @link          http://anomaly.is/streams-platform
+ * @author        AnomalyLabs, Inc. <hello@anomaly.is>
+ * @author        Ryan Thompson <ryan@anomaly.is>
+ * @package       Anomaly\UrlLinkTypeExtension
  */
-class UrlLinkTypeExtension extends LinkTypeExtension
+class UrlLinkTypeExtension extends LinkType
 {
 
     /**
+     * This extension provides the URL
+     * link type for the Navigation module.
+     *
      * @var string
      */
     protected $provides = 'anomaly.module.navigation::link_type.url';
-
-    /**
-     * The link type model
-     *
-     * @var string
-     */
-    protected $model = 'Anomaly\UrlLinkTypeExtension\UrlModel';
-
-    /**
-     * @var string
-     */
-    protected $searchField = 'url';
-
-    /**
-     * Allows to create a new url from the same search input.
-     *
-     * @var bool
-     */
-    protected $create = true;
 
 }

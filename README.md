@@ -1,3 +1,3 @@
-# URl Link Type Extension
+# URL Link Type
 
-URL lin type extension for the Navigation module.
+A URL link type.
