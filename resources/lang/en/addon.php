@@ -2,6 +2,6 @@
 
 return [
     'name'        => 'URL Link Type',
-    'description' => 'URL link type for the navigation module.',
-    'label'       => 'URL'
+    'label'       => 'URL',
+    'description' => 'A URL link type for the Navigation module.'
 ];
