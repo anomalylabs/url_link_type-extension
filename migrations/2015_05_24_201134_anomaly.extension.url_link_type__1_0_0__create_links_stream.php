@@ -3,25 +3,14 @@
 use Anomaly\Streams\Platform\Database\Migration\Migration;
 
 /**
- * Class AnomalyExtensionUrlLinkTypeCreateUrlsStream
+ * Class AnomalyExtensionUrlLinkType_1_0_0_CreateLinksStream
  *
  * @link          http://anomaly.is/streams-platform
  * @author        AnomalyLabs, Inc. <hello@anomaly.is>
  * @author        Ryan Thompson <ryan@anomaly.is>
  */
-class AnomalyExtensionUrlLinkTypeCreateUrlsStream extends Migration
+class AnomalyExtensionUrlLinkType_1_0_0_CreateLinksStream extends Migration
 {
-
-    /**
-     * The addon fields.
-     *
-     * @var array
-     */
-    protected $fields = [
-        'title'       => 'anomaly.field_type.text',
-        'url'         => 'anomaly.field_type.text',
-        'description' => 'anomaly.field_type.textarea',
-    ];
 
     /**
      * The stream definition.
@@ -29,8 +18,9 @@ class AnomalyExtensionUrlLinkTypeCreateUrlsStream extends Migration
      * @var array
      */
     protected $stream = [
-        'slug'   => 'urls',
-        'locked' => true,
+        'slug'         => 'urls',
+        'title_column' => 'title',
+        'locked'       => true
     ];
 
     /**
@@ -43,8 +33,7 @@ class AnomalyExtensionUrlLinkTypeCreateUrlsStream extends Migration
             'required' => true
         ],
         'url'   => [
-            'required' => true,
-            'unique'   => true
+            'required' => true
         ],
         'description'
     ];
