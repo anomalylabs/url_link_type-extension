@@ -13,7 +13,7 @@ class AnomalyExtensionUrlLinkTypeCreateUrlsStream extends Migration
 {
 
     /**
-     * Fields
+     * The addon fields.
      *
      * @var array
      */
@@ -24,7 +24,7 @@ class AnomalyExtensionUrlLinkTypeCreateUrlsStream extends Migration
     ];
 
     /**
-     * Stream
+     * The stream definition.
      *
      * @var array
      */
@@ -34,19 +34,19 @@ class AnomalyExtensionUrlLinkTypeCreateUrlsStream extends Migration
     ];
 
     /**
-     * Field assignments
+     * The stream assignments.
      *
      * @var array
      */
     protected $assignments = [
-        'title'       => [
+        'title' => [
             'required' => true
         ],
-        'url'         => [
+        'url'   => [
             'required' => true,
-            'unique'   => true,
+            'unique'   => true
         ],
-        'description' => []
+        'description'
     ];
 
 }

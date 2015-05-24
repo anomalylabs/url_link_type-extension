@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name'        => 'URL Link Type',
     'label'       => 'URL',
+    'name'        => 'URL Link Type',
     'description' => 'A URL link type for the Navigation module.'
 ];
