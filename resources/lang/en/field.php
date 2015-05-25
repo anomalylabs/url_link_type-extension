@@ -14,6 +14,6 @@ return [
     'description' => [
         'name'         => 'Description',
         'instructions' => 'The optional description could be used for extra link text.',
-        'placeholder'  => 'About out company.'
+        'placeholder'  => 'About our company.'
     ]
 ];
