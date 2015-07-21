@@ -20,7 +20,7 @@ class AnomalyExtensionUrlLinkType_1_0_0_CreateLinksStream extends Migration
     protected $stream = [
         'slug'         => 'urls',
         'title_column' => 'title',
-        'locked'       => true
+        'translatable' => true
     ];
 
     /**
@@ -29,13 +29,16 @@ class AnomalyExtensionUrlLinkType_1_0_0_CreateLinksStream extends Migration
      * @var array
      */
     protected $assignments = [
-        'title' => [
+        'title'       => [
+            'required'     => true,
+            'translatable' => true
+        ],
+        'url'         => [
             'required' => true
         ],
-        'url'   => [
-            'required' => true
-        ],
-        'description'
+        'description' => [
+            'translatable' => true
+        ]
     ];
 
 }

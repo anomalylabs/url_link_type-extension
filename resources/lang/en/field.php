@@ -4,16 +4,15 @@ return [
     'title'       => [
         'name'         => 'Title',
         'instructions' => 'Enter the link title.',
-        'placeholder'  => 'Company'
+        'placeholder'  => 'About Us'
     ],
     'url'         => [
         'name'         => 'URL',
-        'instructions' => 'Enter a URL. If you enter a URI, the site domain will be prepended automatically.',
+        'instructions' => 'Enter a URL. If you enter a URI path, the site domain will be prepended automatically.',
         'placeholder'  => 'about/company'
     ],
     'description' => [
         'name'         => 'Description',
-        'instructions' => 'The optional description could be used for extra link text.',
-        'placeholder'  => 'About our company.'
+        'instructions' => 'The description can be used for extra link text.'
     ]
 ];

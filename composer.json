@@ -1,40 +1,25 @@
 {
     "name": "anomaly/url_link_type-extension",
     "type": "streams-addon",
-    "description": "A URL link type.",
-    "version": "1.0.0",
-    "license": "MIT",
+    "description": "A URL link type for the Navigation module.",
     "keywords": [
-        "navigation",
-        "link type",
-        "streams",
-        "pyrocms",
-        "laravel"
+        "streams extension",
+        "streams addon",
+        "extension"
     ],
     "homepage": "http://anomaly.is/",
+    "version": "1.0.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "AnomalyLabs, Inc.",
             "email": "hello@anomaly.is",
             "homepage": "http://anomaly.is/",
             "role": "Owner"
-        },
-        {
-            "name": "Ryan Thompson",
-            "email": "ryan@anomaly.is",
-            "role": "Developer"
         }
     ],
     "support": {
-        "email": "support@anomaly.is",
-        "source": "https://github.com/anomalylabs/addons-module",
-        "issues": "https://github.com/anomalylabs/addons-module/issues"
-    },
-    "require-dev": {
-        "phpspec/phpspec": "~2.0"
-    },
-    "config": {
-        "bin-dir": "bin"
+        "email": "support@anomaly.is"
     },
     "autoload": {
         "psr-4": {
@@ -43,8 +28,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-1.0/master": "1.0.x-dev"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
