@@ -3,13 +3,13 @@
 use Anomaly\Streams\Platform\Database\Migration\Migration;
 
 /**
- * Class AnomalyExtensionUrlLinkType_1_0_0_CreateLinksStream
+ * Class AnomalyExtensionUrlLinkTypeCreateLinksStream
  *
  * @link          http://anomaly.is/streams-platform
  * @author        AnomalyLabs, Inc. <hello@anomaly.is>
  * @author        Ryan Thompson <ryan@anomaly.is>
  */
-class AnomalyExtensionUrlLinkType_1_0_0_CreateLinksStream extends Migration
+class AnomalyExtensionUrlLinkTypeCreateLinksStream extends Migration
 {
 
     /**
