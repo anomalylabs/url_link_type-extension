@@ -1,6 +1,6 @@
 <?php namespace Anomaly\UrlLinkTypeExtension;
 
-use Anomaly\NavigationModule\Link\LinkType;
+use Anomaly\Streams\Platform\Addon\Extension\Extension;
 
 /**
  * Class UrlLinkTypeExtension
@@ -10,7 +10,7 @@ use Anomaly\NavigationModule\Link\LinkType;
  * @author        Ryan Thompson <ryan@anomaly.is>
  * @package       Anomaly\UrlLinkTypeExtension
  */
-class UrlLinkTypeExtension extends LinkType
+class UrlLinkTypeExtension extends Extension
 {
 
     /**
