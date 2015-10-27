@@ -1,6 +1,5 @@
 <?php namespace Anomaly\UrlLinkTypeExtension;
 
-use Anomaly\NavigationModule\Link\Contract\LinkEntryInterface;
 use Anomaly\Streams\Platform\Model\UrlLinkType\UrlLinkTypeUrlsEntryModel;
 
 /**
@@ -11,7 +10,7 @@ use Anomaly\Streams\Platform\Model\UrlLinkType\UrlLinkTypeUrlsEntryModel;
  * @author        Ryan Thompson <ryan@anomaly.is>
  * @package       Anomaly\UrlLinkTypeExtension
  */
-class UrlLinkTypeModel extends UrlLinkTypeUrlsEntryModel implements LinkEntryInterface
+class UrlLinkTypeModel extends UrlLinkTypeUrlsEntryModel
 {
 
     /**
