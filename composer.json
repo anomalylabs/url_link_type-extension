@@ -3,9 +3,9 @@
     "type": "streams-addon",
     "description": "A URL link type for the Navigation module.",
     "keywords": [
-        "streams extension",
-        "streams addon",
-        "extension"
+        "streams",
+        "link type",
+        "URL"
     ],
     "homepage": "http://anomaly.is/",
     "license": "MIT",
@@ -27,7 +27,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-1.0/master": "1.0.x-dev"
+            "dev-master": "1.1.x-dev"
         }
     }
 }
