@@ -14,6 +14,15 @@ class UrlLinkTypeModel extends UrlLinkTypeUrlsEntryModel
 {
 
     /**
+     * Eager load these relations.
+     *
+     * @var array
+     */
+    protected $with = [
+        'translations'
+    ];
+
+    /**
      * Get the URL.
      *
      * @return string
