@@ -12,7 +12,6 @@ use Anomaly\UrlLinkTypeExtension\Form\UrlLinkTypeFormBuilder;
  * @link          http://pyrocms.com/
  * @author        PyroCMS, Inc. <support@pyrocms.com>
  * @author        Ryan Thompson <ryan@pyrocms.com>
- * @package       Anomaly\UrlLinkTypeExtension
  */
 class UrlLinkTypeExtension extends LinkTypeExtension implements LinkTypeInterface
 {
@@ -28,7 +27,7 @@ class UrlLinkTypeExtension extends LinkTypeExtension implements LinkTypeInterfac
     /**
      * Return the entry URL.
      *
-     * @param LinkInterface $link
+     * @param  LinkInterface $link
      * @return string
      */
     public function url(LinkInterface $link)
@@ -39,7 +38,7 @@ class UrlLinkTypeExtension extends LinkTypeExtension implements LinkTypeInterfac
     /**
      * Return the entry title.
      *
-     * @param LinkInterface $link
+     * @param  LinkInterface $link
      * @return string
      */
     public function title(LinkInterface $link)

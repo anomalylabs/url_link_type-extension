@@ -8,7 +8,6 @@ use Anomaly\Streams\Platform\Model\UrlLinkType\UrlLinkTypeUrlsEntryModel;
  * @link          http://pyrocms.com/
  * @author        PyroCMS, Inc. <support@pyrocms.com>
  * @author        Ryan Thompson <ryan@pyrocms.com>
- * @package       Anomaly\UrlLinkTypeExtension
  */
 class UrlLinkTypeModel extends UrlLinkTypeUrlsEntryModel
 {
@@ -19,7 +18,7 @@ class UrlLinkTypeModel extends UrlLinkTypeUrlsEntryModel
      * @var array
      */
     protected $with = [
-        'translations'
+        'translations',
     ];
 
     /**

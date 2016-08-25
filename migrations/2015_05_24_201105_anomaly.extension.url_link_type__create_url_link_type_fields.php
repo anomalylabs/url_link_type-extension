@@ -20,7 +20,7 @@ class AnomalyExtensionUrlLinkTypeCreateUrlLinkTypeFields extends Migration
     protected $fields = [
         'title'       => 'anomaly.field_type.text',
         'url'         => 'anomaly.field_type.text',
-        'description' => 'anomaly.field_type.textarea'
+        'description' => 'anomaly.field_type.textarea',
     ];
 
 }
