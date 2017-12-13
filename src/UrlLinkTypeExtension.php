@@ -4,6 +4,7 @@ use Anomaly\NavigationModule\Link\Contract\LinkInterface;
 use Anomaly\NavigationModule\Link\Type\Contract\LinkTypeInterface;
 use Anomaly\NavigationModule\Link\Type\LinkTypeExtension;
 use Anomaly\Streams\Platform\Ui\Form\FormBuilder;
+use Anomaly\UrlLinkTypeExtension\Command\GetUrl;
 use Anomaly\UrlLinkTypeExtension\Form\UrlLinkTypeFormBuilder;
 
 /**
@@ -32,7 +33,7 @@ class UrlLinkTypeExtension extends LinkTypeExtension implements LinkTypeInterfac
      */
     public function url(LinkInterface $link)
     {
-        return url($link->getEntry()->getUrl());
+        return url($this->dispatch(new GetUrl($link->getEntry())));
     }
 
     /**
