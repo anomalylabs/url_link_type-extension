@@ -22,5 +22,4 @@ class AnomalyExtensionUrlLinkTypeCreateUrlLinkTypeFields extends Migration
         'url'         => 'anomaly.field_type.text',
         'description' => 'anomaly.field_type.textarea',
     ];
-
 }

@@ -40,5 +40,4 @@ class AnomalyExtensionUrlLinkTypeCreateLinksStream extends Migration
             'translatable' => true,
         ],
     ];
-
 }
