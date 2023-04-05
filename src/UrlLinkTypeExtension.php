@@ -33,7 +33,7 @@ class UrlLinkTypeExtension extends LinkTypeExtension implements LinkTypeInterfac
      */
     public function url(LinkInterface $link)
     {
-        return url($this->dispatchSync(new GetUrl($link->getEntry())));
+        return url(dispatch_sync(new GetUrl($link->getEntry())));
     }
 
     /**
