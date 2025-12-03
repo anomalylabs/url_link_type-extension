@@ -309,4 +309,3 @@ This extension is open-sourced software licensed under the [MIT license](LICENSE
 ## Authors
 
 - **PyroCMS, Inc.** - [Website](http://pyrocms.com/) - support@pyrocms.com
-
