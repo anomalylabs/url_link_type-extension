@@ -31,6 +31,6 @@ class GetUrl
      */
     public function handle(Parser $parser)
     {
-        return $parser->parse($this->entry->getRawAttribute('url'));
+        return $parser->parseData($this->entry->getRawAttribute('url'));
     }
 }
